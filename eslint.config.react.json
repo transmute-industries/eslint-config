@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["./eslint.config.json", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "16"
+    }
+  },
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "react/display-name": 0,
+    "import/prefer-default-export": 0,
+    "import/no-named-as-default": 0,
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+  }
+}

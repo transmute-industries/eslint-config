@@ -1,0 +1,14 @@
+{
+  "name": "@transmute/eslint-config",
+  "version": "0.0.8",
+  "description": "",
+  "files": [
+    "eslint.config.json",
+    "eslint.config.node.json",
+    "eslint.config.react.json",
+    "prettier.config.json"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
