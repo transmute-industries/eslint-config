@@ -1,7 +1,7 @@
 {
   "name": "@transmute/eslint-config",
-  "version": "0.0.8",
-  "description": "Trasnmute eslint configs for React and Node",
+  "version": "0.1.0",
+  "description": "Transmute eslint configs for React and Node",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/transmute-industries/eslint-config.git"
