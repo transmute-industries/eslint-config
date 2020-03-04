@@ -70,6 +70,7 @@ Create `.eslintrc` :
 
 ```
 {
+  // or @transmute/eslint-config/eslint.config.node.json for node environments
   "extends": ["@transmute/eslint-config/eslint.config.react.json"]
 }
 ```
