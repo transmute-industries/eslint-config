@@ -14,13 +14,17 @@ This eslint configuration depends on the following libraries:
 - "eslint"
 - "eslint-config-airbnb-base"
 - "eslint-config-prettier"
-- "eslint-plugin-import"
 - "eslint-plugin-jest"
-- "eslint-plugin-node"
 - "eslint-plugin-prettier"
-- "eslint-plugin-react"
 - "eslint-plugin-security"
 - "prettier"
+
+And if react environment:
+- "eslint-plugin-react"
+
+And if node environment:
+- "eslint-plugin-import"
+- "eslint-plugin-node"
 
 It is tempting to add those as dependencies in `package.json` so that one can just run `npm i --save-dev @transmute/eslint-config` to setup everything in one command, however this does not work.
 
